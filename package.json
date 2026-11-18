@@ -1,0 +1,21 @@
+{
+  "name": "webgpu-compute-studio",
+  "version": "0.1.0",
+  "description": "Browser-based WebGPU compute shader development environment with visual editor",
+  "keywords": ["webgpu", "compute-shader", "wgsl", "gpu", "3d", "graphics", "visual-editor"],
+  "author": "WebGPU Compute Studio Contributors",
+  "license": "MIT",
+  "bin": { "wgpu-studio": "./dist/index.js" },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "dev": "node dist/index.js dev",
+    "build": "node dist/index.js build",
+    "test": "node dist/index.js test",
+    "init": "node dist/index.js init"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "repository": { "type": "git", "url": "https://github.com/yourname/webgpu-compute-studio.git" },
+  "bugs": { "url": "https://github.com/yourname/webgpu-compute-studio/issues" }
+}
